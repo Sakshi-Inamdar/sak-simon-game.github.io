@@ -1,0 +1,53 @@
+body{
+background-color: antiquewhite;
+text-align: center;
+margin-top: 150px;
+}
+.panel{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-style:outset;
+    cursor: pointer;
+    
+}
+
+
+.red{
+    border-top-left-radius: 200px;
+    background-color: red;
+    
+}
+.green{
+    border-top-right-radius: 200px;
+    background-color: green;
+}
+.yellow{
+    border-bottom-left-radius: 200px;
+    background-color: yellow;
+    
+}
+.blue{
+    border-bottom-right-radius: 200px;
+    background-color: blue;
+    
+}
+.panel:hover{
+    border: black;
+
+}
+.active{
+    background-color: white;
+}
+
+.centercircle{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: black;
+    border-radius: 100px;
+    margin-top: -320px;
+    margin-left: -110px;
+    border-style:outset;   
+    display: inline-block;   
+}
